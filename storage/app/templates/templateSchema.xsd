@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Root element -->
+    <xs:element name="template">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="section" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="data_key" type="xs:string" />
+                            <xs:element name="content" type="xs:string" minOccurs="0" />
+                            <xs:element name="font_size" type="xs:int" minOccurs="0" />
+                            <xs:element name="barcode_height" type="xs:int" minOccurs="0" />
+                            <xs:element name="width" type="xs:int" minOccurs="0" />
+                            <xs:element name="height" type="xs:int" minOccurs="0" />
+                            <xs:element name="line_thickness" type="xs:int" minOccurs="0" />
+                        </xs:sequence>
+                        <xs:attribute name="type" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="text" />
+                                    <xs:enumeration value="barcode" />
+                                    <xs:enumeration value="image" />
+                                    <xs:enumeration value="box" />
+                                    <xs:enumeration value="line" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

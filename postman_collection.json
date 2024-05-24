@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "cc48f5f6-0f52-4213-876e-ada5fd7f0ed2",
+		"name": "zpl-library-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29978009"
+	},
+	"item": [
+		{
+			"name": "Upload Template",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Hammoumi Tarik",
+							"type": "text"
+						},
+						{
+							"key": "template",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/upload-template",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"upload-template"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate ZPL 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "product_name",
+							"value": "Awesome Gadget",
+							"type": "text"
+						},
+						{
+							"key": "barcode",
+							"value": "9876543210",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/generate-zpl/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"generate-zpl",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate ZPL 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "product_name",
+							"value": "Awesome Gadget",
+							"type": "text"
+						},
+						{
+							"key": "barcode",
+							"value": "9876543210",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/generate-zpl/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"generate-zpl",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

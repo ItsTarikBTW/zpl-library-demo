@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="templateSchema.xsd">
+    <section type="text">
+        <data_key>company_name</data_key>
+        <content>Eurequat, Inc.</content>
+    </section>
+    <section type="text">
+        <data_key>shipping_lane</data_key>
+        <content>1000 Shipping Lane</content>
+    </section>
+    <section type="text">
+        <data_key>city_zip</data_key>
+        <content>Tlemcen TLM 13000</content>
+    </section>
+    <section type="text">
+        <data_key>country</data_key>
+        <content>Algeria (DZ)</content>
+    </section>
+    <section type="text">
+        <data_key>recipient_name</data_key>
+        <content>John Doe</content>
+    </section>
+    <section type="text">
+        <data_key>recipient_address</data_key>
+        <content>100 Main Street</content>
+    </section>
+    <section type="text">
+        <data_key>recipient_city_zip</data_key>
+        <content>Springfield TN 39021</content>
+    </section>
+    <section type="text">
+        <data_key>recipient_country</data_key>
+        <content>United States (USA)</content>
+    </section>
+    <section type="text">
+        <data_key>permit_number</data_key>
+        <content>123456</content>
+    </section>
+    <section type="text">
+        <data_key>barcode_num</data_key>
+        <content>12345678</content>
+    </section>
+    <section type="text">
+        <data_key>reference_1</data_key>
+        <content>Ctr. X34B-1</content>
+    </section>
+    <section type="text">
+        <data_key>reference_2</data_key>
+        <content>REF1 F00B47</content>
+    </section>
+    <section type="text">
+        <data_key>reference_3</data_key>
+        <content>REF2 BL4H8</content>
+    </section>
+    <section type="text">
+        <data_key>ca_label</data_key>
+        <content>CA</content>
+    </section>
+</template>
