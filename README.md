@@ -1,5 +1,7 @@
 # Laravel ZPL Library Demo
 
+![X SVG](x.svg)
+
 ## Project Structure
 ```
 zpl-library-demo/
